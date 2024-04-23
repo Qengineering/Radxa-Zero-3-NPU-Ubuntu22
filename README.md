@@ -59,7 +59,8 @@ Even with the NPU running 24/7 at 1.8 GHz, it never gets warmer than 42Â°C (107Â
 
 ![output image]( https://qengineering.eu/github/RadxaZero3_Fan3.webp)<br/><br/>
 
-Make sure you use the thermal pad properly. It should fill the space between the chip and the cooling element effectively.<br>
+Make sure you use the thermal pad properly.<br>
+It should fill the space between the chip and the cooling element effectively.<br>
 If there is any gap, the heat flow will not be optimal, resulting in a much hotter CPU.<br>
 The delivered pad will come with two plastic protective sheets. These must be removed before applying the pad.<br>
 If there is still a small gap (the CPU of the Radxa is slightly thinner than the Raspberry Pi), cut some small slices from the pad and stack them.<br>
