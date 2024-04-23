@@ -86,7 +86,9 @@ The actual CPU core is located at the center of the chip, where the heat is gene
 
 - [OpenCV](https://qengineering.eu/deep-learning-with-opencv-on-raspberry-pi-4.html) 4.9.0
 - [ncnn](https://qengineering.eu/install-ncnn-on-raspberry-pi-4.html) 20230517
-- NPU software [rknpu2](https://github.com/rockchip-linux/rknpu2) 1.4.0
+- NPU [rknpu2](https://github.com/airockchip/rknn-toolkit2/tree/master/rknpu2) 1.5.2
+- NPU [model zoo](https://github.com/airockchip/rknn_model_zoo) 2.0.0
+- NPU [model zoo models](https://github.com/Qengineering/rknn_model_zoo) 2.0.0
 
 ------------
 
@@ -95,5 +97,6 @@ A more than special thanks to [***Joshua Riek***](https://github.com/Joshua-Riek
 
 ------------
 
-[![paypal](https://qengineering.eu/images/TipJarSmall4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPZTM5BB3FCYL) 
+[![paypal](https://qengineering.eu/images/TipJarSmall4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPZTM5BB3FCYL) <br><br>
+![output image]( https://qengineering.eu/github/RadxaCover.webp)<br/><br>
 
