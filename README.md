@@ -12,6 +12,8 @@
 - Insert the SD card in your Rock 5 and enjoy.
 - Username: ***radxa***
 - no password: ***radxa***
+#### Showstopper. 
+- The NPU only works on the 2 and 4 GB models.
 
 ------------
 
