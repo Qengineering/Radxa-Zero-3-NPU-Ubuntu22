@@ -17,6 +17,8 @@
 
 ## Model performance benchmark(FPS)
 
+All models, with C++ examples can be found on the SD image.<br>
+
 | demo             | model_name                   | inputs_shape            | dtype | Radxa Zero3|
 | ---------------- | ---------------------------- | ----------------------- | ----- | ------------- |
 | yolov5           | yolov5s_relu                 | [1, 3, 640, 640]        | INT8  | 14.8          |
