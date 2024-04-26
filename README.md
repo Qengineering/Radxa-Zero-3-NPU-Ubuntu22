@@ -1,4 +1,4 @@
-# Radxa Zero3 NPU with Ubuntu 22.04
+# Radxa Zero 3 NPU with Ubuntu 22.04
 ![output image]( https://qengineering.eu/github/RadxaZero3_GitHub.webp)<br/><br>
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/>
 
