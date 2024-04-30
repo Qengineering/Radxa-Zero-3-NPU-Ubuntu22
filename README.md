@@ -6,7 +6,7 @@
 
 ## Installation.
 
-- Get a 16 GB (minimal) SD-card which will hold the image. 
+- Get a 16 GB (minimal) SD card holding the image. 
 - Download the `Radxa_Zero3_NPU_Ubuntu22.img.xz` image (3.3 GByte) from our [Sync](https://ln5.sync.com/dl/9c6592390/rsr2pb66-93y5zph6-nryj9bdt-aju7pfwf) site. 
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - Insert the SD card in your Rock 5 and enjoy.
@@ -19,7 +19,7 @@
 
 ## Model performance benchmark(FPS)
 
-All models, with C++ examples can be found on the SD image.<br>
+All models, with C++ examples, can be found on the SD image.<br>
 
 | demo             | model_name                   | inputs_shape            | dtype | Radxa Zero3|
 | ---------------- | ---------------------------- | ----------------------- | ----- | ------------- |
@@ -50,11 +50,11 @@ All models, with C++ examples can be found on the SD image.<br>
 | PPOCR-Det        | ppocrv4_det                  | [1, 3, 480, 480]        | INT8  | 15.1          |
 | PPOCR-Rec        | ppocrv4_rec                  | [1, 3, 48, 320]         | FP16  | 17.3          |
 
-* Due to the pixelwise filling and drawing, segmentation models are relative slow
+* Due to the pixel-wise filling and drawing, segmentation models are relatively slow
 
 ------------
 
-## Coooling.
+## Cooling.
 
 You must cool your Zero3. It will get very hot without a heatsink.<br>
 We used a heatsink with two fans designed for the Raspberry Pi Zero, and it works fine.<br>
@@ -63,12 +63,12 @@ Even with the NPU running 24/7 at 1.8 GHz, it never gets warmer than 42Â°C (107Â
 
 ![output image]( https://qengineering.eu/github/RadxaZero3_Fan3.webp)<br/><br/>
 
-Make sure you use the thermal pad properly.<br>
+Use the thermal pad properly.<br>
 It should fill the space between the chip and the cooling element effectively.<br>
 If there is any gap, the heat flow will not be optimal, resulting in a much hotter CPU.<br>
 The delivered pad will come with two plastic protective sheets. These must be removed before applying the pad.<br>
 If there is still a small gap (the CPU of the Radxa is slightly thinner than the Raspberry Pi), cut some small slices from the pad and stack them.<br>
-The actual CPU core is located at the center of the chip, where the heat is generated.<br><br>
+The actual CPU core is located at the centre of the chip, where the heat is generated.<br><br>
 
 ![output image]( https://qengineering.eu/github/RadxaZero3_FanPad.webp)<br/><br/>
 
@@ -76,8 +76,8 @@ The actual CPU core is located at the center of the chip, where the heat is gene
 
 ## Tips.
 
-* If you are in need of extra space, you can delete the opencv and the opencv_contrib folder from the SD card. There are no longer needed since all libraries are placed in the /usr/ directory.
-* Use a tool like [GParted](https://gparted.org/) `sudo apt-get install gparted` to expand the image to larger SD cards. We recommend a minimum of 64 GB. Deep learning simply requires a lot of space.<br/>
+* If you need extra space delete the opencv and the opencv_contrib folder from the SD card. They are no longer needed since all libraries are stored in the /usr/ directory.
+* Use a tool like [GParted](https://gparted.org/) `sudo apt-get install gparted` to expand the image to larger SD cards. We recommend a minimum of 64 GB. Deep learning requires a lot of space.<br/>
 
 
 ------------
@@ -85,7 +85,7 @@ The actual CPU core is located at the center of the chip, where the heat is gene
 ## Pre-installed frameworks.
 
 - [OpenCV](https://qengineering.eu/deep-learning-with-opencv-on-raspberry-pi-4.html) 4.9.0
-- [ncnn](https://qengineering.eu/install-ncnn-on-raspberry-pi-4.html) 20230517
+- [ncnn](https://qengineering.eu/install-ncnn-on-raspberry-pi-4.html) 20240410
 - NPU [rknpu2](https://github.com/airockchip/rknn-toolkit2/tree/master/rknpu2) 1.5.2
 - NPU [model zoo](https://github.com/airockchip/rknn_model_zoo) 2.0.0
 - NPU [model zoo models](https://github.com/Qengineering/rknn_model_zoo) 2.0.0
