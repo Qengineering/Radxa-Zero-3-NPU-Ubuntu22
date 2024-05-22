@@ -7,7 +7,7 @@
 ## Installation.
 
 - Get a 16 GB (minimal) SD card holding the image. 
-- Download the `Radxa_Zero3_NPU_Ubuntu22.img.xz` image (3.3 GByte) from our [Sync](https://ln5.sync.com/dl/9c6592390/rsr2pb66-93y5zph6-nryj9bdt-aju7pfwf) site. 
+- Download the `Radxa_Zero3_NPU_Ubuntu22.img.xz` image (3.3 GByte) from our [Sync](https://ln5.sync.com/dl/9c6592390/rsr2pb66-93y5zph6-nryj9bdt-aju7pfwf) site.
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - Insert the SD card in your Rock 5 and enjoy.
 - Username: ***radxa***
