@@ -15,6 +15,11 @@
 
 ------------
 
+## NPU.
+
+- To get the NPU working, see [How to Enable the NPU on the Radxa Zero 3](https://github.com/Qengineering/Radxa-Zero-3-NPU-Ubuntu22/wiki).
+------------
+
 ## Model performance benchmark(FPS)
 
 All models, with C++ examples, can be found on the SD image.<br>
