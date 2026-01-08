@@ -4,6 +4,12 @@
 
 ------------
 
+# Ubuntu 24.04
+
+**Better to use our latest version [Ubuntu 24.04](https://github.com/Qengineering/Radxa-Zero-3-NPU-Ubuntu24)**.
+
+------------
+
 ## Installation.
 
 - Get a 16 GB (minimal) SD card holding the image. 
